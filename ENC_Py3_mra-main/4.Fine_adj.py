@@ -229,8 +229,8 @@ w1 = 1/5
 w2 = 2/5
 w3 = 2/5
 # Set the transformation metric ranges.
-r1 = [0.500, 0.700]
-r2 = [0.000, 0.100]
+r1 = [0.500, 0.800]
+r2 = [0.000, 0.200]
 r3 = [0.000, 0.100]
 # Set whether to maximise or minimise the objectives.
 s1 = "maximise"
@@ -1130,7 +1130,7 @@ f.write("duration: " + str(duration_h) + "\n" +
 f.close()
 
 # Write the output rules.
-output_rules_file = output_path + "\\Rules\\final_rules_4.csv"
+output_rules_file = output_path + "\\Rules\\final_rules_30_8.csv"
 store = [0]*6
 with open(output_rules_file, "w", newline='') as csv_file:
     writer = csv.writer(csv_file)
@@ -1151,7 +1151,7 @@ with open(output_rules_file, "w", newline='') as csv_file:
 
 # Write the output log.
 log_output_file = (output_path +  "\\Fine_cal_output\\" +
-                   case_study + "_fine_tuning_output_4.csv")
+                   case_study + "_fine_tuning_output_30_8.csv")
 store = [0]*8
 with open(log_output_file, "w", newline='') as csv_file:
     writer = csv.writer(csv_file)

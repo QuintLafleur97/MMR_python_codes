@@ -1,0 +1,85 @@
+from,to,y0,y1,y2,xe
+Agriculture,Forest,0.502499874064149,0,0,5
+Agriculture,Industry,13.75,5.0,0.5,5
+Agriculture,Nature,27.5,0,0,5
+Agriculture,Recreation,27.5,0,0,5
+Agriculture,Urban-formal,27.5,0.502499874064149,0.0502499874064149,5
+Agriculture,Urban-informal,13.75,5.0,0.5,5
+Agriculture,Urban-villages,0,0.502499874064149,0.0502499874064149,5
+Forest,Forest,1000.0,12.5,1.25,5
+Forest,Industry,0,0,0,5
+Forest,Nature,0,0,0,5
+Forest,Recreation,0,0,0,5
+Forest,Urban-formal,0,0,0,5
+Forest,Urban-informal,0,0,0,5
+Forest,Urban-villages,0,0,0,5
+Industry,Forest,0,0,0,5
+Industry,Industry,250.0,0,0,5
+Industry,Nature,0,5.0,0.5,5
+Industry,Recreation,6.875,0,0,5
+Industry,Urban-formal,0.502499874064149,0.502499874064149,0.0502499874064149,5
+Industry,Urban-informal,6.875,0.502499874064149,0.0502499874064149,5
+Industry,Urban-villages,6.875,0,0,5
+Nature,Forest,27.5,0,0,5
+Nature,Industry,6.875,0,0,5
+Nature,Nature,253.76874905548112,0.502499874064149,0.0502499874064149,5
+Nature,Recreation,0,0,0,5
+Nature,Urban-formal,13.75,5.0,0.5,5
+Nature,Urban-informal,0.502499874064149,5.0,0.5,5
+Nature,Urban-villages,0,0,0,5
+Recreation,Forest,0,0,0,5
+Recreation,Industry,0,0,0,5
+Recreation,Nature,0,0,0,5
+Recreation,Recreation,253.76874905548112,0,0,5
+Recreation,Urban-formal,0,5.0,0.5,5
+Recreation,Urban-informal,0,0,0,5
+Recreation,Urban-villages,0,0,0,5
+Urban-formal,Forest,0,0,0,5
+Urban-formal,Industry,6.875,0.502499874064149,0.0502499874064149,5
+Urban-formal,Nature,6.875,0,0,5
+Urban-formal,Recreation,0,0,0,5
+Urban-formal,Urban-formal,253.76874905548112,12.5,1.25,5
+Urban-formal,Urban-informal,0,0,0,5
+Urban-formal,Urban-villages,13.75,0,0,5
+Urban-informal,Forest,0,0,0,5
+Urban-informal,Industry,0,0,0,5
+Urban-informal,Nature,0,0,0,5
+Urban-informal,Recreation,0,0,0,5
+Urban-informal,Urban-formal,0,5.0,0.5,5
+Urban-informal,Urban-informal,253.76874905548112,0.502499874064149,0.0502499874064149,5
+Urban-informal,Urban-villages,0,0,0,5
+Urban-villages,Forest,0,0,0,5
+Urban-villages,Industry,0,0,0,5
+Urban-villages,Nature,0,5.0,0.5,5
+Urban-villages,Recreation,0,0,0,5
+Urban-villages,Urban-formal,0,0,0,5
+Urban-villages,Urban-informal,0,0,0,5
+Urban-villages,Urban-villages,1000.0,0.502499874064149,0.0502499874064149,5
+Transportation,Forest,0,0,0,5
+Transportation,Industry,0,0.502499874064149,0.0502499874064149,5
+Transportation,Nature,0,5.0,0.5,5
+Transportation,Recreation,0,0,0,5
+Transportation,Urban-formal,0,0,0,5
+Transportation,Urban-informal,0,0,0,5
+Transportation,Urban-villages,13.75,0.502499874064149,0.0502499874064149,5
+Airport and Harbour,Forest,0,0,0,5
+Airport and Harbour,Industry,0,0,0,5
+Airport and Harbour,Nature,0,0,0,5
+Airport and Harbour,Recreation,0,0,0,5
+Airport and Harbour,Urban-formal,0,0,0,5
+Airport and Harbour,Urban-informal,0,0,0,5
+Airport and Harbour,Urban-villages,0,0,0,5
+Water,Forest,0,0,0,5
+Water,Industry,0,0,0,5
+Water,Nature,0,0,0,5
+Water,Recreation,0,0,0,5
+Water,Urban-formal,0,0,0,5
+Water,Urban-informal,0,0,0,5
+Water,Urban-villages,6.875,0,0,5
+Outside,Forest,0,0,0,5
+Outside,Industry,0,0,0,5
+Outside,Nature,0,0,0,5
+Outside,Recreation,0,0,0,5
+Outside,Urban-formal,0,0,0,5
+Outside,Urban-informal,0,0,0,5
+Outside,Urban-villages,0,0,0,5
