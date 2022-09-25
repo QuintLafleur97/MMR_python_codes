@@ -60,7 +60,7 @@ fuzzy_trans_coefficients = base_path + "EU_data\\coefficients15.txt"
 #working_directory = ("C:\\Geonamica\\Metronamica\\" + case_study)
 working_directory = "C:\\Users\\Quint\\Documents\\EPA\\Thesis\\mum-ams\\MMR\\Simulation\\MMR_4\\"
 # Set the project file path.
-project_file = working_directory + "MMR_5.geoproj"
+project_file = working_directory + "7-9-trial.geoproj"
 # Set the path to the command line version of Geonamica
 geo_cmd = "C:\\Program Files (x86)\\Geonamica\\Metronamica\\GeonamicaCmd.exe"
 # Set the path to the log file.
@@ -162,7 +162,7 @@ low_inertia_point = 250.0
 #    interval_size = 0.001
 
 # Set the varied parameter. Must be one of theta_it, theta_cp or theta_ct
-vp = "theta_cp"
+vp = "theta_it"
 # Set the fixed parameters.
 if vp == "theta_it":
     # Values set by user
@@ -405,11 +405,11 @@ for x in range(0, len(testing_range)):
 # Logging of results ------------------------------------------------
 # Specify the csv file.
 if vp == "theta_it":
-    metrics_output_file = output_path + "1. theta_it_coarse_cal_output_mmr_6.csv"
+    metrics_output_file = output_path + "1. theta_it_coarse_cal_output_mmr_6_7-9_2.csv"
 elif vp == "theta_cp":
-    metrics_output_file = output_path + "2. theta_cp_coarse_cal_output_mmr_6.csv"
+    metrics_output_file = output_path + "2. theta_cp_coarse_cal_output_mmr_6_7-9_2.csv"
 elif vp == "theta_ct":
-    metrics_output_file = output_path + "3. theta_ct_coarse_cal_output_mmr_6.csv"
+    metrics_output_file = output_path + "3. theta_ct_coarse_cal_output_mmr_6_7-9_2.csv"
 # Determine how many metrics to write to output.
 store_len = 3
 # Generate an empty list to store metric values.
